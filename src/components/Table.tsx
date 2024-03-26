@@ -122,8 +122,38 @@ function Table() {
 
   // Handle Search is the same as Handle Filter
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    let searchValue: Boolean;
+    let personIDValue: Boolean;
+    let fullNameValue: Boolean;
+    let heightValue: Boolean;
+    let eyeColorValue: Boolean;
+
     const newRows = rows.filter((row) => {
-      return row.fullName.toLowerCase().includes(e.target.value.toLowerCase());
+      personIDValue = row.personID
+        .toString()
+        .toLowerCase()
+        .includes(e.target.value.toLowerCase());
+      fullNameValue = row.fullName
+        .toLowerCase()
+        .includes(e.target.value.toLowerCase());
+      heightValue = row.height
+        .toLowerCase()
+        .includes(e.target.value.toLowerCase());
+      eyeColorValue = row.eyeColor
+        .toLowerCase()
+        .includes(e.target.value.toLowerCase());
+
+      if (personIDValue) {
+        searchValue = personIDValue;
+      } else if (fullNameValue) {
+        searchValue = fullNameValue;
+      } else if (heightValue) {
+        searchValue = heightValue;
+      } else {
+        searchValue = eyeColorValue;
+      }
+
+      return searchValue;
     });
 
     setData(newRows);
