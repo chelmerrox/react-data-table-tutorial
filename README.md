@@ -4,7 +4,7 @@
 
 ## 📸 Preview
 
-![screenshot]()
+<a href="https://www.loom.com/share/83e866e303364a4b8becca1b8795f9de?sid=b615cabc-d4fe-4f1a-a0e4-3827119e5e94">React-Data-Table-Component Tutorial - Final Result</a>
 
 ## 🔨 Built With
 
@@ -12,10 +12,6 @@
 - TypeScript
 - JavaScript
 - Bootstrap
-
-## 💻 Live Demo
-
-<a href="">React-Data-Table-Component Tutorial</a>
 
 ## ⌨️ Getting Started
 
@@ -34,7 +30,7 @@ $ git clone git@github.com:chelmerrox/react-data-table-tutorial.git
 
 ```
 
-2. Change directory into figure-rate.
+2. Change directory into react-data-table-tutorial.
 
 ```bash
 $ cd react-data-table-tutorial/
