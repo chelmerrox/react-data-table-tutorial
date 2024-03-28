@@ -1,6 +1,6 @@
 # 🎯 React-Data-Table-Component Tutorial
 
-> This is the source code for this <a href="">freeCodeCamp article</a>.
+> This is the source code for this <a href="https://www.freecodecamp.org/news/create-tables-using-the-react-datatable-component-library/" target="_blank">freeCodeCamp article</a>.
 
 ## 📸 Preview
 
