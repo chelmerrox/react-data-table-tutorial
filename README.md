@@ -56,7 +56,7 @@ Give a ⭐️ if you like this project!
 
 - My God, the Lord Jesus Christ & the Holy Spirit.
 - Family & friends
-- freeCodeCamp team
+- freeCodeCamp's Editorial team
 - Mentors
 - Other colleagues
 - Any others not mentioned here
